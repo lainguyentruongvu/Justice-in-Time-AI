@@ -75,7 +75,7 @@ GEMINI_API_KEY = clean_env("GEMINI_API_KEY")
 
 MODEL = clean_env(
     "GEMINI_MODEL",
-    "gemini-3.5-flash",
+    "gemini-3.6-flash",
 )
 
 MAX_OUTPUT_TOKENS = get_int_env(
